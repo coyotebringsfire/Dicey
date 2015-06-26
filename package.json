@@ -1,0 +1,25 @@
+{
+  "name": "AskTemplate",
+  "version": "0.0.1",
+  "description": "template for amazon skills kit apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coyotebringsfire/AskTemplate.git"
+  },
+  "keywords": [
+    "ask",
+    "amazon",
+    "echo",
+    "template"
+  ],
+  "author": "coyotebringsfire <aumkara@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coyotebringsfire/AskTemplate/issues"
+  },
+  "homepage": "https://github.com/coyotebringsfire/AskTemplate"
+}
