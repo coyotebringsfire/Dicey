@@ -4,8 +4,12 @@
       "intent": "Roll",
       "slots": [
         {
-          "name": "Dice",
-          "type": "LITERAL"
+          "name": "NumDice",
+          "type": "NUMBER"
+        },
+        {
+          "name": "DiceSize",
+          "type": "NUMBER"
         }
       ]
     }

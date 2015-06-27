@@ -1,4 +1,5 @@
-var Die=require('./Die');
+var Die=require('./Die'),
+    toWords=require('./Words');
 
 /**
  * This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
@@ -16,11 +17,11 @@ exports.handler = function (event, context) {
          * Uncomment this if statement and populate with your skill's application ID to
          * prevent someone else from configuring a skill that sends requests to this function.
          */
-        /*
-        if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.[unique-value-here]") {
+
+        if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.f8484ead-bd05-45f6-9a0e-416e5760031c") {
+             console.log("application id %s", event.session.application.applicationId);
              context.fail("Invalid Application ID");
          }
-         */
 
         if (event.request.type === "LaunchRequest") {
             onLaunch(event.request,
@@ -65,6 +66,7 @@ function onIntent(intentRequest, session, callback) {
         intentName = intentRequest.intent.name;
 
     // Dispatch to your skill's intent handlers
+    console.log("rolling");
     if ("Roll" === intentName) {
         Roll(intent, session, callback);
     } else {
@@ -101,11 +103,11 @@ function Roll(intent, session, callback) {
         sessionAttributes = {},
         shouldEndSession = true,
         speechOutput = "";
-
+console.log("diceToRoll %s",intent.slots.Dice );
     if (diceToRollSlot) {
-        diceToRoll = diceToRollSlot.value;
+        diceToRoll = diceToRollSlot;
         // parse the request and roll dice
-        sessionAttributes = createFavoriteColorAttributes(favoriteColor);
+        console.log("diceToRoll %s", diceToRoll);
         speechOutput = toWords(doRoll(diceToRoll));
         repromptText = "You can ask me to roll dice by saying, roll three d six";
     } else {
