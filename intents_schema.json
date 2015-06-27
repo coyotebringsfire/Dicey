@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "Roll",
+      "slots": [
+        {
+          "name": "Dice",
+          "type": "LITERAL"
+        }
+      ]
+    }
+  ]
+}
