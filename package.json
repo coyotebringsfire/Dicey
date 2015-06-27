@@ -4,7 +4,7 @@
   "description": "diceroller for amazon skills kit - echo",
   "main": "index.js",
   "scripts": {
-    "zip": "npm install && rm -f Dicey.zip && zip Dicey.zip index.js node_modules",
+    "zip": "npm install && rm -f Dicey.zip && zip Dicey.zip index.js Words.js Die.js node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
