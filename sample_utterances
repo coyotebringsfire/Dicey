@@ -1,0 +1,6 @@
+Roll {one d four|Dice}
+Roll {two d six plus one|Dice}
+Roll {three d eight minus three|Dice}
+Roll {four d ten plus four|Dice}
+Roll {five d twelve minux five|Dice}
+Roll {six d twenty plus six|Dice}
