@@ -4,6 +4,7 @@
   "description": "template for amazon skills kit apps",
   "main": "index.js",
   "scripts": {
+    "zip": "npm install && rm -f AskTemplate.zip && zip AskTemplate.zip index.js node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
