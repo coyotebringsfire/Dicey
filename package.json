@@ -1,15 +1,15 @@
 {
-  "name": "AskBoilerplate",
+  "name": "Dicey",
   "version": "0.0.1",
-  "description": "boilerplate for amazon skills kit apps",
+  "description": "diceroller for amazon skills kit - echo",
   "main": "index.js",
   "scripts": {
-    "zip": "npm install && rm -f AskBoilerplate.zip && zip AskBoilerplate.zip index.js node_modules",
+    "zip": "npm install && rm -f Dicey.zip && zip Dicey.zip index.js node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coyotebringsfire/AskBoilerplate.git"
+    "url": "https://github.com/coyotebringsfire/Dicey.git"
   },
   "keywords": [
     "ask",
@@ -20,7 +20,7 @@
   "author": "coyotebringsfire <aumkara@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coyotebringsfire/AskBoilerplate/issues"
+    "url": "https://github.com/coyotebringsfire/Dicey/issues"
   },
-  "homepage": "https://github.com/coyotebringsfire/AskBoilerplate"
+  "homepage": "https://github.com/coyotebringsfire/Dicey"
 }

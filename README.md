@@ -1,5 +1,5 @@
-# AskBoilerplate
-boilerplate for Amazon Skills Kit Node.js app
+# Dicey
+diceroller for Amazon Skills Kit Node.js app
 
 ## How to Use
 Clone (or fork) this repo
