@@ -1,65 +1,60 @@
-Roll roll {one|NumDice} d {four|DiceSize}
-Roll roll {two|NumDice} d {four|DiceSize}
-Roll roll {three|NumDice} d {four|DiceSize}
-Roll roll {four|NumDice} d {four|DiceSize}
-Roll roll {five|NumDice} d {four|DiceSize}
-Roll roll {six|NumDice} d {four|DiceSize}
-Roll roll {seven|NumDice} d {four|DiceSize}
-Roll roll {eight|NumDice} d {four|DiceSize}
-Roll roll {nine|NumDice} d {four|DiceSize}
-Roll roll {ten|NumDice} d {four|DiceSize}
-
-Roll roll {one|NumDice} d {six|DiceSize}
-Roll roll {two|NumDice} d {six|DiceSize}
-Roll roll {three|NumDice} d {six|DiceSize}
-Roll roll {four|NumDice} d {six|DiceSize}
-Roll roll {five|NumDice} d {six|DiceSize}
-Roll roll {six|NumDice} d {six|DiceSize}
-Roll roll {seven|NumDice} d {six|DiceSize}
-Roll roll {eight|NumDice} d {six|DiceSize}
-Roll roll {nine|NumDice} d {six|DiceSize}
-Roll roll {ten|NumDice} d {six|DiceSize}
-
-Roll roll {one|NumDice} d {eight|DiceSize}
-Roll roll {two|NumDice} d {eight|DiceSize}
-Roll roll {three|NumDice} d {eight|DiceSize}
-Roll roll {four|NumDice} d {eight|DiceSize}
-Roll roll {five|NumDice} d {eight|DiceSize}
-Roll roll {six|NumDice} d {eight|DiceSize}
-Roll roll {seven|NumDice} d {eight|DiceSize}
-Roll roll {eight|NumDice} d {eight|DiceSize}
-Roll roll {nine|NumDice} d {eight|DiceSize}
-Roll roll {ten|NumDice} d {eight|DiceSize}
-
-Roll roll {one|NumDice} d {ten|DiceSize}
-Roll roll {two|NumDice} d {ten|DiceSize}
-Roll roll {three|NumDice} d {ten|DiceSize}
-Roll roll {four|NumDice} d {ten|DiceSize}
-Roll roll {five|NumDice} d {ten|DiceSize}
-Roll roll {six|NumDice} d {ten|DiceSize}
-Roll roll {seven|NumDice} d {ten|DiceSize}
-Roll roll {eight|NumDice} d {ten|DiceSize}
-Roll roll {nine|NumDice} d {ten|DiceSize}
-Roll roll {ten|NumDice} d {ten|DiceSize}
-
-Roll roll {one|NumDice} d {twelve|DiceSize}
-Roll roll {two|NumDice} d {twelve|DiceSize}
-Roll roll {three|NumDice} d {twelve|DiceSize}
-Roll roll {four|NumDice} d {twelve|DiceSize}
-Roll roll {five|NumDice} d {twelve|DiceSize}
-Roll roll {six|NumDice} d {twelve|DiceSize}
-Roll roll {seven|NumDice} d {twelve|DiceSize}
-Roll roll {eight|NumDice} d {twelve|DiceSize}
-Roll roll {nine|NumDice} d {twelve|DiceSize}
-Roll roll {ten|NumDice} d {twelve|DiceSize}
-
-Roll roll {one|NumDice} d {twenty|DiceSize}
-Roll roll {two|NumDice} d {twenty|DiceSize}
-Roll roll {three|NumDice} d {twenty|DiceSize}
-Roll roll {four|NumDice} d {twenty|DiceSize}
-Roll roll {five|NumDice} d {twenty|DiceSize}
-Roll roll {six|NumDice} d {twenty|DiceSize}
-Roll roll {seven|NumDice} d {twenty|DiceSize}
-Roll roll {eight|NumDice} d {twenty|DiceSize}
-Roll roll {nine|NumDice} d {twenty|DiceSize}
-Roll roll {ten|NumDice} d {twenty|DicDiceSizee}
+Roll {one|NumDice} {four|DiceSize}
+Roll {two|NumDice} {four|DiceSize}
+Roll {three|NumDice} {four|DiceSize}
+Roll {four|NumDice} {four|DiceSize}
+Roll {five|NumDice} {four|DiceSize}
+Roll {six|NumDice} {four|DiceSize}
+Roll {seven|NumDice} {four|DiceSize}
+Roll {eight|NumDice} {four|DiceSize}
+Roll {nine|NumDice} {four|DiceSize}
+Roll {ten|NumDice} {four|DiceSize}
+Roll {one|NumDice} {six|DiceSize}
+Roll {two|NumDice} {six|DiceSize}
+Roll {three|NumDice} {six|DiceSize}
+Roll {four|NumDice} {six|DiceSize}
+Roll {five|NumDice} {six|DiceSize}
+Roll {six|NumDice} {six|DiceSize}
+Roll {seven|NumDice} {six|DiceSize}
+Roll {eight|NumDice} {six|DiceSize}
+Roll {nine|NumDice} {six|DiceSize}
+Roll {ten|NumDice} {six|DiceSize}
+Roll {one|NumDice} {eight|DiceSize}
+Roll {two|NumDice} {eight|DiceSize}
+Roll {three|NumDice} {eight|DiceSize}
+Roll {four|NumDice} {eight|DiceSize}
+Roll {five|NumDice} {eight|DiceSize}
+Roll {six|NumDice} {eight|DiceSize}
+Roll {seven|NumDice} {eight|DiceSize}
+Roll {eight|NumDice} {eight|DiceSize}
+Roll {nine|NumDice} {eight|DiceSize}
+Roll {ten|NumDice} {eight|DiceSize}
+Roll {one|NumDice} {ten|DiceSize}
+Roll {two|NumDice} {ten|DiceSize}
+Roll {three|NumDice} {ten|DiceSize}
+Roll {four|NumDice} {ten|DiceSize}
+Roll {five|NumDice} {ten|DiceSize}
+Roll {six|NumDice} {ten|DiceSize}
+Roll {seven|NumDice} {ten|DiceSize}
+Roll {eight|NumDice} {ten|DiceSize}
+Roll {nine|NumDice} {ten|DiceSize}
+Roll {ten|NumDice} {ten|DiceSize}
+Roll {one|NumDice} {twelve|DiceSize}
+Roll {two|NumDice} {twelve|DiceSize}
+Roll {three|NumDice} {twelve|DiceSize}
+Roll {four|NumDice} {twelve|DiceSize}
+Roll {five|NumDice} {twelve|DiceSize}
+Roll {six|NumDice} {twelve|DiceSize}
+Roll {seven|NumDice} {twelve|DiceSize}
+Roll {eight|NumDice} {twelve|DiceSize}
+Roll {nine|NumDice} {twelve|DiceSize}
+Roll {ten|NumDice} {twelve|DiceSize}
+Roll {one|NumDice} {twenty|DiceSize}
+Roll {two|NumDice} {twenty|DiceSize}
+Roll {three|NumDice} {twenty|DiceSize}
+Roll {four|NumDice} {twenty|DiceSize}
+Roll {five|NumDice} {twenty|DiceSize}
+Roll {six|NumDice} {twenty|DiceSize}
+Roll {seven|NumDice} {twenty|DiceSize}
+Roll {eight|NumDice} {twenty|DiceSize}
+Roll {nine|NumDice} {twenty|DiceSize}
+Roll {ten|NumDice} {twenty|DiceSize}
