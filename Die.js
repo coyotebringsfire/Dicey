@@ -1,3 +1,5 @@
+var debug=console.log;
+
 var Dice=function() {
 	//the format of dice parameter can be a number of dice to roll or XdY 
 	this.roll = function(dice) {
