@@ -1,5 +1,6 @@
 var Die=require('./Die'),
-    toWords=require('./Words');
+    toWords=require('./Words'),
+    util=require('util');
 
 /**
  * This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
@@ -97,21 +98,23 @@ function getWelcomeResponse(callback) {
  */
 function Roll(intent, session, callback) {
     var cardTitle = intent.name,
-        diceToRollSlot = intent.slots.Dice,
-        diceToRoll = "",
+        numDiceToRollSlot = intent.slots.NumDice,
+        diceSizeSlot = intent.slots.DiceSize,
         repromptText = "",
         sessionAttributes = {},
         shouldEndSession = true,
         speechOutput = "";
-console.log("diceToRoll %s",intent.slots.Dice );
-    if (diceToRollSlot) {
-        diceToRoll = diceToRollSlot;
+    
+    if (numDiceToRollSlot && diceSizeSlot) {
         // parse the request and roll dice
-        console.log("diceToRoll %s", diceToRoll);
-        speechOutput = toWords(doRoll(diceToRoll));
+        console.log("diceToRoll %sd%s", numDiceToRollSlot, diceSizeSlot );
+        speechOutput = toWords( doRoll( [util.format("%sd%s", numDiceToRollSlot,diceSizeSlot )] ) );
         repromptText = "You can ask me to roll dice by saying, roll three d six";
     } else {
-        speechOutput = "I'm not sure what you want me to roll, please try again";
+        speechOutput = "I'm not sure what you want me to roll, please try again. dice to roll equals "
+                + numDiceToRollSlot
+                + " and dice size equals "
+                + diceSizeSlot ;
         repromptText = "I'm not sure what you want me to roll, You can ask me "
                 + "to roll dice by saying, roll three d six";
     }
